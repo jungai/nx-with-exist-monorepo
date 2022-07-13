@@ -9,5 +9,8 @@
     "nx"
   ],
   "author": "jungai",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nx": "14.4.2"
+  }
 }
