@@ -1,0 +1,19 @@
+{
+  "name": "service-a",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "jungai",
+  "license": "ISC",
+  "dependencies": {
+    "express-app": "workspace:*"
+  },
+  "devDependencies": {
+    "tsconfig": "workspace:*",
+    "typescript": "^4.7.4",
+    "types": "workspace:*"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ."
+  }
+}
