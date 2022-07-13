@@ -38,11 +38,13 @@ importers:
 
   services/service-a:
     specifiers:
+      dotenv: ^16.0.1
       express-app: workspace:*
       tsconfig: workspace:*
       types: workspace:*
       typescript: ^4.7.4
     dependencies:
+      dotenv: 16.0.1
       express-app: link:../../libs/express-app
     devDependencies:
       tsconfig: link:../../packages/tsconfig
@@ -407,6 +409,11 @@ packages:
     resolution: {integrity: sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==}
     engines: {node: '>=10'}
     dev: true
+
+  /dotenv/16.0.1:
+    resolution: {integrity: sha512-1K6hR6wtk2FviQ4kEiSjFiH5rpzEVi8WW0x96aztHVMhEspNpc4DVOUTEHtEva5VThQ8IaBX1Pe4gSzpVVUsKQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /ee-first/1.1.1:
     resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}

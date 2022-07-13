@@ -1,9 +1,6 @@
 {
   "name": "monorepo-nx-workflow",
   "version": "1.0.0",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "monorepo",
     "nx"
@@ -12,5 +9,11 @@
   "license": "ISC",
   "devDependencies": {
     "nx": "14.4.2"
+  },
+  "scripts": {
+    "build:service-a": "nx run service-a:build",
+    "build:service-b": "nx run service-b:build",
+    "start:service-a": "nx run service-a:start",
+    "start:service-b": "nx run service-b:start"
   }
 }

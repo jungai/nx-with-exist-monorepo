@@ -5,12 +5,13 @@
   "author": "jungai",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "express-app": "workspace:*"
   },
   "devDependencies": {
     "tsconfig": "workspace:*",
-    "typescript": "^4.7.4",
-    "types": "workspace:*"
+    "types": "workspace:*",
+    "typescript": "^4.7.4"
   },
   "scripts": {
     "build": "tsc",
